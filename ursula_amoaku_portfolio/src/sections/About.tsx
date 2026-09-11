@@ -32,7 +32,7 @@ export default function About() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
           className="about-card-container"
-          style={{
+          style={{  
             background: 'var(--bg-subtle)',
             borderRadius: '36px',
             border: '1px solid var(--border)',
