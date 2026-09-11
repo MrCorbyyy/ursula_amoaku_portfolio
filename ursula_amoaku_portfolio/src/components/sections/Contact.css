@@ -1,0 +1,67 @@
+.contact__wrapper {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.contact__panel {
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.contact__methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact__method-label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-caramel-dark);
+  margin-bottom: 0.3rem;
+}
+
+.contact__method-value {
+  font-size: 1rem;
+  color: var(--color-text-primary);
+  transition: color var(--transition);
+  word-break: break-word;
+}
+
+a.contact__method-value:hover {
+  color: var(--color-caramel-dark);
+}
+
+.contact__method-value--plain {
+  color: var(--color-text-secondary);
+}
+
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.contact .section-heading-block {
+  text-align: center;
+}
+
+.contact .section-intro {
+  margin-inline: auto;
+}
+
+@media (min-width: 540px) {
+  .contact__actions .btn {
+    flex: 0 0 auto;
+  }
+}

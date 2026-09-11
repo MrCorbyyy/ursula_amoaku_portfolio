@@ -1,0 +1,17 @@
+.technical-edge__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 540px) {
+  .technical-edge__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .technical-edge__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

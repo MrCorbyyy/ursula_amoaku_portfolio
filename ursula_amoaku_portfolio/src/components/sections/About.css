@@ -1,0 +1,28 @@
+.about__grid {
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.about__content p {
+  color: var(--color-text-secondary);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  max-width: 65ch;
+}
+
+.about .section-heading-block {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr 1.2fr;
+    align-items: start;
+  }
+}

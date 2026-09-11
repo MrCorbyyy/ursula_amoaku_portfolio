@@ -1,0 +1,19 @@
+.section-heading-block {
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.section-heading-block--center {
+  text-align: center;
+}
+
+.section-heading-block--center .section-intro {
+  margin-inline: auto;
+}
+
+.section-heading-block .eyebrow {
+  margin-bottom: 0.75rem;
+}
+
+.section-heading-block .section-intro {
+  margin-top: 1rem;
+}

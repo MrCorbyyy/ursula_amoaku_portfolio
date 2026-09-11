@@ -1,0 +1,10 @@
+{
+  "name": "ursula-amoaku-portfolio-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix ./ursula_amoaku_portfolio run dev",
+    "build": "npm --prefix ./ursula_amoaku_portfolio run build",
+    "preview": "npm --prefix ./ursula_amoaku_portfolio run preview"
+  }
+}
